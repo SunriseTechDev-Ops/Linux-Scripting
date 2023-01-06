@@ -13,7 +13,7 @@ name="noel balingwe"
 id="12345"
 echo "The name varibale value is: "$name
 echo "The id variable value is: "$id
-
+```
 ##Command Line Arguments
 ``` sh
 #Number of arguments on the command line.
@@ -55,7 +55,7 @@ date
 echo '$?:' $?
 else
 echo "Please Pass the 3 command line args along with script"
-
+```
 ##strings
 ``` sh
 string_var="Hi Team, My name is  noel balingwe, working  at SRT"
@@ -70,7 +70,7 @@ echo "The sub string is:"  ${string_var:20:14}
 echo The sub tring value is:  ${string_var: (-8)}
 
 echo The sub tring value is:  ${string_var: -17}
-
+```
 
 ## Arithmetic operations
 ``` sh
@@ -80,7 +80,7 @@ expr 3 \* 2
 expr 10 / 2
 expr 20 % 3
 echo addition of 3 and 2 is : `expr 3 + 2`
-
+```
 ##Arrays
 ``` sh
 
@@ -105,7 +105,7 @@ echo ${devopstools[*]}
 #Displaying all values
 
 echo ${devopstools[@]}
-
+```
 
 ##Reading inputs
 ``` sh
@@ -118,7 +118,7 @@ read number1
 echo please enter 2nd number2
 read number2
 echo The sum is `expr $number1 + $number2`
-
+```
 
 ## creating a user
 #With simple commands
@@ -132,3 +132,4 @@ echo "The name you entered is: "  $userName
 echo ".......User is created..........."
 echo ".......Now Set the password for  ....... $userName"
 passwd $userName
+```
