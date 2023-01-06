@@ -81,7 +81,7 @@ expr 10 / 2
 expr 20 % 3
 echo addition of 3 and 2 is : `expr 3 + 2`
 ```
-##Arrays
+## Arrays
 ``` sh
 
 declare -a devopstools
@@ -107,7 +107,7 @@ echo ${devopstools[*]}
 echo ${devopstools[@]}
 ```
 
-##Reading inputs
+## Reading inputs
 ``` sh
 
 echo "Please enter your name"
@@ -121,7 +121,7 @@ echo The sum is `expr $number1 + $number2`
 ```
 
 ## creating a user
-#With simple commands
+## With simple commands
 ``` sh
 #Creating a user
 echo "Please enter the user name for the account you want to create!"
@@ -133,7 +133,7 @@ echo ".......User is created..........."
 echo ".......Now Set the password for  ....... $userName"
 passwd $userName
 ```
-##Purpose - Script to add a user to Linux system including passsword
+## Purpose - Script to add a user to Linux system including passsword
 # ------------------------------------------------------------------
 # Am i Root user?
 ``` sh
