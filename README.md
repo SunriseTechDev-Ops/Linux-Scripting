@@ -1,14 +1,14 @@
 ## Linux-Scripting
 #linux scripting
-
 !/bin/bash      
-#author		     :sunrise tech (noel balingwe)
+#author		 :sunrise tech (noel balingwe)
 #date            :01/06/2022
 #version         :1.0 
 
 ##User Defined Variables
 
 ``` sh
+#!/bin/bash 
 name="noel balingwe"
 id="12345"
 echo "The name varibale value is: "$name
@@ -16,6 +16,7 @@ echo "The id variable value is: "$id
 ```
 ##Command Line Arguments
 ``` sh
+#!/bin/bash 
 #Number of arguments on the command line.
 echo '$#:' $#
 #Process number of the current process.
@@ -58,6 +59,7 @@ echo "Please Pass the 3 command line args along with script"
 ```
 ##strings
 ``` sh
+#!/bin/bash 
 string_var="Hi Team, My name is  noel balingwe, working  at SRT"
 
 echo "The value of string_var value is: " ${string_var}
@@ -74,6 +76,7 @@ echo The sub tring value is:  ${string_var: -17}
 
 ## Arithmetic operations
 ``` sh
+#!/bin/bash 
 expr 3 + 2
 expr 3 - 2
 expr 3 \* 2
@@ -83,7 +86,7 @@ echo addition of 3 and 2 is : `expr 3 + 2`
 ```
 ## Arrays
 ``` sh
-
+#!/bin/bash 
 declare -a devopstools
 devopstools[0]=GitHub
 devopstools[1]=Ant
@@ -109,7 +112,7 @@ echo ${devopstools[@]}
 
 ## Reading inputs
 ``` sh
-
+#!/bin/bash 
 echo "Please enter your name"
 read name
 echo "Your name is: " $name
@@ -123,6 +126,7 @@ echo The sum is `expr $number1 + $number2`
 ## creating a user
 ## With simple commands
 ``` sh
+#!/bin/bash 
 #Creating a user
 echo "Please enter the user name for the account you want to create!"
 read userName
@@ -156,7 +160,7 @@ fi
 ## Create user and grant sudo access
 ``` sh
 
-#!/usr/bin/ bash
+#!/bin/bash 
 if [ $# -ne 1 ]
 then
   echo "Usage: $0  username"
