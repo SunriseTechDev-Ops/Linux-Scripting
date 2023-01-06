@@ -136,7 +136,7 @@ echo ".......User is created..........."
 echo ".......Now Set the password for  ....... $userName"
 passwd $userName
 ```
-# Purpose - Script to add a user to Linux system with passsword
+## Purpose - Script to add a user to Linux system with passsword
 ## Remember you have to be Root user or has root previlleges?
 ``` sh
 if [ $(id -u) -eq 0 ]; then
@@ -180,7 +180,7 @@ sed -i "/NOPASSWD/a\\$USERNAME ALL=(ALL)       NOPASSWD: ALL" /etc/sudoers
 
 echo "Sudo access successfully granted to $USERNAME"
 ```
-# Loops
+## Loops
 ## For loop
 ```sh
 #!bin/bash
