@@ -54,4 +54,3 @@ date
 echo '$?:' $?
 else
 echo "Please Pass the 3 command line args along with script"
-fi
