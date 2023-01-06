@@ -3,7 +3,7 @@ linux scripting
 
 
 
-#title           :User Defined Variables
+##User Defined Variables
 
 
 !/bin/bash      
@@ -20,7 +20,7 @@ echo "The id variable value is: "$id
 
 
 
-#title           :Command Line Arguments
+##Command Line Arguments
 
 
 #Number of arguments on the command line.
@@ -65,7 +65,7 @@ echo "Please Pass the 3 command line args along with script"
 
 
 
-#title           :strings
+##strings
 
 
 
@@ -83,8 +83,7 @@ echo The sub tring value is:  ${string_var: (-8)}
 echo The sub tring value is:  ${string_var: -17}
 
 
-
-#title           : Arithmetic operations
+## Arithmetic operations
 
 
 
@@ -136,11 +135,11 @@ read number2
 echo The sum is `expr $number1 + $number2`
 
 
-#title         :creating a user
+## creating a user
 #With simple commands
 
 
-# Creating a user
+##Creating a user
 echo "Please enter the user name for the account you want to create!"
 read userName
 echo "The name you entered is: "  $userName
