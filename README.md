@@ -1,21 +1,18 @@
 ## Linux-Scripting
 ####linux scripting
 
-
-
-##User Defined Variables
-
 !/bin/bash      
 #author		     :sunrise tech (noel balingwe)
 #date            :01/06/2022
-#version         :1.0    
+#version         :1.0 
+
+##User Defined Variables
+
 ``` sh
 name="noel balingwe"
 id="12345"
 echo "The name varibale value is: "$name
 echo "The id variable value is: "$id
-
-
 
 ##Command Line Arguments
 ``` sh
@@ -59,12 +56,8 @@ echo '$?:' $?
 else
 echo "Please Pass the 3 command line args along with script"
 
-
-
 ##strings
-
-
-
+``` sh
 string_var="Hi Team, My name is  noel balingwe, working  at SRT"
 
 echo "The value of string_var value is: " ${string_var}
@@ -80,9 +73,7 @@ echo The sub tring value is:  ${string_var: -17}
 
 
 ## Arithmetic operations
-
-
-
+``` sh
 expr 3 + 2
 expr 3 - 2
 expr 3 \* 2
@@ -90,10 +81,8 @@ expr 10 / 2
 expr 20 % 3
 echo addition of 3 and 2 is : `expr 3 + 2`
 
-
-
-#title           : Arrays
-
+##Arrays
+``` sh
 
 declare -a devopstools
 devopstools[0]=GitHub
@@ -118,8 +107,8 @@ echo ${devopstools[*]}
 echo ${devopstools[@]}
 
 
-#title           :Reading inputs
-
+##Reading inputs
+``` sh
 
 echo "Please enter your name"
 read name
@@ -133,9 +122,8 @@ echo The sum is `expr $number1 + $number2`
 
 ## creating a user
 #With simple commands
-
-
-##Creating a user
+``` sh
+#Creating a user
 echo "Please enter the user name for the account you want to create!"
 read userName
 echo "The name you entered is: "  $userName
