@@ -81,3 +81,16 @@ echo "The sub string is:"  ${string_var:20:14}
 echo The sub tring value is:  ${string_var: (-8)}
 
 echo The sub tring value is:  ${string_var: -17}
+
+
+
+#title           : Arithmetic operations
+
+
+
+expr 3 + 2
+expr 3 - 2
+expr 3 \* 2
+expr 10 / 2
+expr 20 % 3
+echo addition of 3 and 2 is : `expr 3 + 2`
