@@ -1,11 +1,10 @@
 ## Linux-Scripting
-#linux scripting
-!/bin/bash      
+#linux scripting     
 #author		 :sunrise tech (noel balingwe)
 #date            :01/06/2022
 #version         :1.0 
 
-##User Defined Variables
+## User Defined Variables
 
 ``` sh
 #!/bin/bash 
@@ -14,7 +13,7 @@ id="12345"
 echo "The name varibale value is: "$name
 echo "The id variable value is: "$id
 ```
-##Command Line Arguments
+## Command Line Arguments
 ``` sh
 #!/bin/bash 
 #Number of arguments on the command line.
@@ -57,7 +56,7 @@ echo '$?:' $?
 else
 echo "Please Pass the 3 command line args along with script"
 ```
-##strings
+## strings
 ``` sh
 #!/bin/bash 
 string_var="Hi Team, My name is  noel balingwe, working  at SRT"
@@ -137,8 +136,8 @@ echo ".......User is created..........."
 echo ".......Now Set the password for  ....... $userName"
 passwd $userName
 ```
-## Purpose - Script to add a user to Linux system with passsword
-# Remember you have to be Root user or has root previlleges?
+# Purpose - Script to add a user to Linux system with passsword
+## Remember you have to be Root user or has root previlleges?
 ``` sh
 if [ $(id -u) -eq 0 ]; then
 	read -p "Enter username : " username
