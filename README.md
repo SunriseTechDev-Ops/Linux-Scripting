@@ -134,3 +134,18 @@ read number1
 echo please enter 2nd number2
 read number2
 echo The sum is `expr $number1 + $number2`
+
+
+#title         :creating a user
+#With simple commands
+
+
+# Creating a user
+echo "Please enter the user name for the account you want to create!"
+read userName
+echo "The name you entered is: "  $userName
+/usr/sbin/useradd   $userName
+/usr/sbin/usermod -G devops $userName
+echo ".......User is created..........."
+echo ".......Now Set the password for  ....... $userName"
+passwd $userName
