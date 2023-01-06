@@ -1,6 +1,6 @@
 # Linux-Scripting
 linux scripting
-<title>User Defined Variables</title>
+User Defined Variables
 !/bin/bash      
 #title           :
 #description     :
@@ -9,7 +9,6 @@ linux scripting
 #version         :1.0    
 
 name="noel balingwe"
-id
-
+id="12345"
 echo "The name varibale value is: "$name
 echo "The id variable value is: "$id
