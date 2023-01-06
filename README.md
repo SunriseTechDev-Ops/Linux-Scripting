@@ -1,5 +1,5 @@
 ## Linux-Scripting
-####linux scripting
+#linux scripting
 
 !/bin/bash      
 #author		     :sunrise tech (noel balingwe)
