@@ -181,3 +181,14 @@ sed -i "/NOPASSWD/a\\$USERNAME ALL=(ALL)       NOPASSWD: ALL" /etc/sudoers
 
 echo "Sudo access successfully granted to $USERNAME"
 ```
+## Loops
+### For loops
+```sh
+#!bin/bash
+echo "For loop starts.."
+for (( i=98; i<=100; i++))
+do
+echo $i
+done
+echo "Loop is done.."
+```
