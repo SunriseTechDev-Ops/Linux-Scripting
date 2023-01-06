@@ -1,18 +1,15 @@
-# Linux-Scripting
-linux scripting
+## Linux-Scripting
+####linux scripting
 
 
 
 ##User Defined Variables
 
-
 !/bin/bash      
-#title           :
-#description     :
 #author		     :sunrise tech (noel balingwe)
 #date            :01/06/2022
 #version         :1.0    
-
+``` sh
 name="noel balingwe"
 id="12345"
 echo "The name varibale value is: "$name
@@ -21,8 +18,7 @@ echo "The id variable value is: "$id
 
 
 ##Command Line Arguments
-
-
+``` sh
 #Number of arguments on the command line.
 echo '$#:' $#
 #Process number of the current process.
