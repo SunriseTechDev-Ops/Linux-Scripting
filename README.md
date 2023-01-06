@@ -94,3 +94,30 @@ expr 3 \* 2
 expr 10 / 2
 expr 20 % 3
 echo addition of 3 and 2 is : `expr 3 + 2`
+
+
+
+#title           : Arrays
+
+
+declare -a devopstools
+devopstools[0]=GitHub
+devopstools[1]=Ant
+devopstools[2]=Maven
+devopstools[3]=Tomcat
+devopstools[4]=Wildfly
+devopstools[5]=SonarQube
+
+
+#Displaying 1st value
+echo ${devopstools[0]}
+
+#Displaying 5th value
+echo ${devopstools[4]}
+
+#Displaying all values
+echo ${devopstools[*]}
+
+#Displaying all values
+
+echo ${devopstools[@]}
