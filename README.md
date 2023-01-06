@@ -1,6 +1,11 @@
 # Linux-Scripting
 linux scripting
+
+
+
 User Defined Variables
+
+
 !/bin/bash      
 #title           :
 #description     :
@@ -13,7 +18,10 @@ id="12345"
 echo "The name varibale value is: "$name
 echo "The id variable value is: "$id
 
+
+
 Command Line Arguments
+
 
 #Number of arguments on the command line.
 echo '$#:' $#
@@ -55,8 +63,13 @@ echo '$?:' $?
 else
 echo "Please Pass the 3 command line args along with script"
 
+
+
 strings
-string_var="Hi Team, My name is  noel balingwe, working in SRT"
+
+
+
+string_var="Hi Team, My name is  noel balingwe, working  at SRT"
 
 echo "The value of string_var value is: " ${string_var}
 
