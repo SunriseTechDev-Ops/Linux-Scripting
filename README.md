@@ -133,9 +133,8 @@ echo ".......User is created..........."
 echo ".......Now Set the password for  ....... $userName"
 passwd $userName
 ```
-## Purpose - Script to add a user to Linux system including passsword
-# ------------------------------------------------------------------
-# Am i Root user?
+## Purpose - Script to add a user to Linux system with passsword
+# Remember you have to be Root user or has root previlleges?
 ``` sh
 if [ $(id -u) -eq 0 ]; then
 	read -p "Enter username : " username
