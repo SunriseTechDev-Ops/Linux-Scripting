@@ -3,7 +3,7 @@ linux scripting
 
 
 
-User Defined Variables
+#title           :User Defined Variables
 
 
 !/bin/bash      
@@ -20,7 +20,7 @@ echo "The id variable value is: "$id
 
 
 
-Command Line Arguments
+#title           :Command Line Arguments
 
 
 #Number of arguments on the command line.
@@ -65,7 +65,7 @@ echo "Please Pass the 3 command line args along with script"
 
 
 
-strings
+#title           :strings
 
 
 
